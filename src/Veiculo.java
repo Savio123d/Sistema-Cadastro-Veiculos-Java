@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public abstract class Veiculo {
+    String placa;
+    String marca;
+    String modelo;
 
-public class Veiculo {
+    void  exibirDados(){
+
+    }
+
+    void cadastro(){
+        System.out.println("Veículo cadastrado com sucesso");
+    }
+
+     abstract void realizarManutencao();
 }
